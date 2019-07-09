@@ -57,7 +57,7 @@ public class TravelTest {
         
         Flight flight = (Flight) result.toMap().get("flight");
         assertNotNull(flight);
-        assertEquals("MX555", flight.getFlightNumber());
+        assertEquals("KLM009988", flight.getFlightNumber());
         assertNotNull(flight.getArrival());
         assertNotNull(flight.getDeparture());
         
@@ -104,7 +104,7 @@ public class TravelTest {
         
         Flight flight = (Flight) result.toMap().get("flight");
         assertNotNull(flight);
-        assertEquals("MX555", flight.getFlightNumber());
+        assertEquals("KLM009988", flight.getFlightNumber());
         assertNotNull(flight.getArrival());
         assertNotNull(flight.getDeparture());
         
